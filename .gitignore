@@ -30,4 +30,4 @@ override.tf.json
 Thumbs.db
 
 # Keys
-.pem
+*.pem
