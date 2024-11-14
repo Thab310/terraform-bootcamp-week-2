@@ -32,8 +32,20 @@ I had to skip the initial ssh into the public ec2 instance from my local machine
 ![ssh-ec2](/exercices/day2/images/private-instance-ssh.png)
 
 ### Permanant fix
-> [!NOTE]
-* I am currently looking for a solution the wsl linux file permissins issue.
+I used ChatGpt to help me troubleshoot the issue. 
+
+Please pay attention to the promt and the answer below:
+
+![ssh-solved](/exercices/day2/images/chat-gpt-solution.png)
+
+### Below is a end to end flow:
+![solution](/exercices/day2/images/solution.png)
+### Succesful private ec2 instance login
+* Note that we are inside the private ec2 instance and we can validate that by running ping 8.8.8.8 which is google's ip address. We can see that 7661 packets were transmitted but all of them were lost.
+
+![solution](/exercices/day2/images/private-instance-validation.png)
+
+![TIP] I urge you to go through my blog if you still do not understand fully.
 
 
 # Questions
